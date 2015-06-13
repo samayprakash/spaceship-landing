@@ -16,7 +16,14 @@ html, body {
 }
 
 /* TODO: set css sytle for class "map-spaceship" as height is 100px */
-
+.map-spaceship {
+  height:100px;
+}
 /* TODO: set css style for id "spaceship" as point cursor and top margin is 15px */
-
+#spaceship {
+  cursor: pointer;
+  margin-top: 15px;
+  height: 67px;
+  margin-left: 50%;
+}
 /* TODO: set css style for message poped up as you like */

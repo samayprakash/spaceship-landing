@@ -13,24 +13,27 @@
 
   <body>
     <div class="map">
-      <h1 class="map-title">Welcome to SmartKarma World!</h1>
+      <h1 class="map-title">Welcome to the world explorer!</h1>
       <div class="map-spaceship">
         <div class="row">
           <div class="col-md-6 col-md-offset-3">
             <form id="map-form">
               <div class="input-group">
                 <!-- TODO: add placeholder in input tag -->
-                <input id="map-input" type="text" class="form-control" >
+               
+                <input id="map-input" type="text" class="form-control" 
+                       
+                       placeholder="Where do you want to land" >
 
                 <span class="input-group-btn">
-                  <!-- TODO: add a button with class "btn" and "btn-default"; the text on button is "Go!"-->
+                  <button class="btn btn-primary" type="submit">Please take me there!</button>
 
                 </span>
               </div>
             </form>
           </div>
           <div class="col-md-12">
-            <!-- TODO: add spaceship image here -->
+          <img id="spaceship" src="spaceship.png">
             
           </div>
         </div>
